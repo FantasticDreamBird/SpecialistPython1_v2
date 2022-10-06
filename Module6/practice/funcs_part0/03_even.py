@@ -1,9 +1,9 @@
-def even(...):
-    ...
-    return ...
+def even(a):
+    if a % 2 == 0:
+        return True
+    return False
 
-n = ...
-if even(n):
-   print("Число четное")
-else:
-   print("Число не четное")
+print(even(0))
+print(even(1))
+print(even(2))
+print(even(-3))
